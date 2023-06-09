@@ -1,7 +1,10 @@
+// Application.java
 package com.example.application;
-
+import java.time.LocalDate;
 import com.vaadin.flow.component.page.AppShellConfigurator;
-import com.vaadin.flow.theme.Theme;
+import com.vaadin.flow.component.page.Push;
+import com.vaadin.flow.server.PWA;
+import com.vaadin.flow.spring.annotation.EnableVaadin;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,7 +16,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@Theme(value = "flowcrmtutorial")
+@EnableVaadin
+@Push
+@PWA(name = "Citas App", shortName = "Citas")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {

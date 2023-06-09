@@ -1,0 +1,12 @@
+Nombre del paciente: Sebas Quihspe
+Número de cédula: 1234567890
+Fecha de la cita: 2023-06-21
+Hora de la cita: 12:00
+Historia clínica: 1234
+
+Nombre del paciente: Sebas Quishpe
+Número de cédula: 1234567890
+Fecha de la cita: 2023-06-16
+Hora de la cita: 10:00
+Historia clínica: 1234
+
